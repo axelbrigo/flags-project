@@ -1,0 +1,36 @@
+.button__mode {
+  background-color: transparent;
+  border: none;
+}
+
+.sun__icon {
+  color: yellow;
+  font-size: 20px;
+  margin-top: 5px;
+}
+
+.moon__icon {
+  color: rgb(14, 14, 75);
+  font-size: 20px;
+  margin-top: 5px;
+ 
+}
+
+.dark__text {
+  color: rgb(0, 0, 0);
+  display: flex;
+}
+
+.light__text {
+ display: flex;
+}
+
+.light__text p {
+  margin: 10px;
+  color:var(--color--primary) ;
+}
+
+.dark__text p {
+  margin: 10px;
+  color: var(--color--primary);
+}
